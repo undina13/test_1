@@ -12,7 +12,6 @@ class BinaryTreeNode {
         return Math.max(leftHeight, rightHeight);
     }
 }
-
 function traverseDFR(node, callback) {
     callback(node);
 
